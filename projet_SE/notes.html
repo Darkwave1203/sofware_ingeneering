@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes de l'Élève</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>School Management</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="acc-student.php">Accueil</a></li>
+                <li><a href="emploi-temps.html">Emploi du temps</a></li>
+                <li><a href="notes.html">Notes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="gradesSection">
+    <!-- Les notes seront affichées ici après l'appel AJAX -->
+    <table id="gradesTable">
+        <tr>
+            <th>Matière</th>
+            <th>Note</th>
+        </tr>
+    </table>
+</section>
+
+
+    <footer>
+        <p>&copy; 2023 Université XYZ. Tous droits réservés.</p>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="script.js"></script>
+    </footer>
+
+</body>
+</html>
