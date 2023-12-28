@@ -14,7 +14,8 @@
         <nav>
             <ul>
                 <li><a href="acc-teacher.html">Accueil</a></li>
-                <li><a href="grades.php">Ajouter des Notes</a></li>
+                <li><a href="grades.php">Notes</a></li>
+                <li><a href="teacher_emploi_du_temps.html">Emploi du temps</a></li>
                 <!-- Ajoutez d'autres liens de navigation ici -->
             </ul>
         </nav>
